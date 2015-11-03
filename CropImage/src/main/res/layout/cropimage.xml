@@ -41,16 +41,17 @@
                     android:id="@+id/save"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentLeft="false"
                     android:text="@string/crop_save_text"
-            />
+                android:layout_marginBottom="16dp"
+                android:layout_alignParentRight="true" />
             <Button
                     android:id="@+id/discard"
                     android:layout_width="100dip"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentRight="false"
                     android:text="@string/crop_discard_text"
-            />
+                android:layout_alignParentLeft="true" />
         </RelativeLayout>
     </RelativeLayout>
 
