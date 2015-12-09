@@ -106,9 +106,9 @@
     <string name="capture_video">Capture video</string>
 
     <!-- button indicating that the cropped image should be saved -->
-    <string name="crop_save_text">Save</string>
+    <string name="crop_save_text">SAVE</string>
     <!-- button indicating that the cropped image should be reverted back to the original -->
-    <string name="crop_discard_text">Discard</string>
+    <string name="crop_discard_text">DISCARD</string>
 
     <!-- Confirmation dialog title after deleting a picture -->
     <string name="confirm_delete_title">Delete</string>
