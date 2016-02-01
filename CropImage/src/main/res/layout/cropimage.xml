@@ -42,16 +42,14 @@
             android:paddingTop="5dp">
 
 
-            <com.gc.materialdesign.views.ButtonFlat
+            <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/discard"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#FFF17B21"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
                 android:text="@string/crop_discard_text"
                 android:layout_marginBottom="16dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="8dp" />
+                android:background="#FFF17B21"
+                android:layout_alignParentLeft="true"/>
 
             <com.gc.materialdesign.views.ButtonRectangle
                 android:id="@+id/save"

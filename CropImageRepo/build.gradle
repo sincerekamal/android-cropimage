@@ -15,5 +15,11 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+
+        maven { url "https://jitpack.io" }
     }
+}
+
+dependencies {
+    compile 'com.github.vajro:MaterialDesignLibrary:1.6'
 }
